@@ -1,0 +1,36 @@
+{
+  "name": "prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules ./server/index.mjs",
+    "watch": "webpack-dev-server --hot --inline",
+    "compile": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.4",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.2.1",
+    "express": "^4.16.4",
+    "fetch": "^1.1.0",
+    "fs": "0.0.1-security",
+    "mongodb": "^3.1.10",
+    "node.js": "0.0.0",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.7.0",
+    "session": "^0.1.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
